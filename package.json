@@ -1,7 +1,8 @@
 {
-  "name": "game-server",
+  "name": "card-game-api",
   "version": "1.0.0",
-  "description": "Multi Game Server",
+  "private": true,
+  "description": "REST API for playing cards with user accounts — create, shuffle and draw from persistent decks",
   "main": "index.js",
   "scripts": {
     "devstart": "nodemon run index.js",
@@ -9,6 +10,28 @@
   },
   "author": "Nguyen Anh Nhat",
   "license": "ISC",
+  "homepage": "https://github.com/nathanpixodeo/Card-Game-API#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanpixodeo/Card-Game-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanpixodeo/Card-Game-API/issues"
+  },
+  "keywords": [
+    "cards",
+    "card-game",
+    "deck",
+    "playing-cards",
+    "rest-api",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
